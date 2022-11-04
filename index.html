@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+<!--------------------------------- HEADER ---------------------------->
     <title> Portfólio | Home </title>
   </head>
   <body>
@@ -24,11 +24,11 @@
         </div>
 
         <div class="nav-group-page-items">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="stack.html">Tech Stack</a>
-          <a href="projects.html">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#main-home">Home</a>
+          <a href="#main-about">Sobre</a>
+          <a href="#main-stack">Habilidades</a>
+          <a href="#main-projects">Projetos</a>
+          <a href="#main-contact">Contato</a>
         </div>
 
         <div class="nav-group-social-icons">
@@ -45,24 +45,229 @@
           </a>
         </div>
       </div>
-
-      <div class="main-home">
+<!--------------------------------- HOME ---------------------------->
+      <div class="main-home" id="main-home">
         <div class="section-home">
           <div class="section-home-item">
             <h1>
-              Hi 👋, <br />
-              My name is <br />
-              <span class="my-name">Taynara</span> <br />
-              I'm a Full Stack Web Developer
+              Olá, <br />
+              Meu nome é <br />
+              <span class="my-name">Taynara Montenegro,</span> <br />
+              Eu sou Desenvolvedora Web Full Stack.
             </h1>
 
             <img
               src="picture/image perfil copy.png"
               alt="Profile photo"
               class="profile-img"
-              width="400"
+              width="450"
             />
           </div>
+        </div>
+      </div>
+<!--------------------------------- SOBRE ---------------------------->
+      <div class="main-about" id="main-about">
+        <div class="section-about">
+            <div class="section-about-me">
+                <h1>Um pouco sobre mim</h1>
+                <p> Em agosto de 2022, dei início aos meus estudos para Desenvolvimento Web Full Stack na Labenu, aprendendo frontend (JavaScript, HTML, CSS, Jest, React), e backend (Node js, TypeScript, MySQL, aws, Firebase). Juntamente com o aprendizado, estou desenvolvendo soft skills socioemocionais e comportamentais, como também participo de aulas sobre empregabilidade (currículo, portfólio, entrevista, feedback). Tudo para que no final dessa caminhada, eu seja uma profissional o mais completa possível.
+                    Quando decidi mergulhar de cabeça nessa área, não acreditava o quanto iria me fascinar por esse universo tão singular. Atualmente em paralelo tenho aulas particulares de inglês, pois entendo a necessidade que ela exerce sobre todo o mundo da tecnologia. O meu objetivo é estar em constante evolução de aprendizado e poder sempre me tornar um ser humano melhor pessoalmente e profissionalmente.
+                </p>
+            </div>
+
+            <div class="section-about-work">
+                <h1>Educação</h1>
+
+                <div class="section-about-work-item">
+                    <div class="section-about-work-item-header">
+                        <h2>Labenu</h2>
+                        <span class="section-about-time-tag">Integral</span>
+                    </div>
+
+                    <div class="section-about-work-item-content">
+                        <span class="content-work">
+                            <img src="icons/office.building.svg" alt="Office building icon">
+                            Desenvolvimento Web Full Stack - Frontend | Backend | Soft Skills
+                        </span>
+
+                        <span class="content-data">
+                            <img src="icons/calendar.svg" alt="Office building icon">
+                            Aug 2022 - May 2023
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+<!--------------------------------- HABILIDADES ---------------------------->
+      <div class="main-stack" id="main-stack">
+        <div class="section-stack">
+            <div class="section-stack-intro">
+                <h1>Tecnologias</h1>
+                <p> Tecnologias com as quais tenho trabalhado recentemente. </p>
+            </div>
+
+            <div class="section-stack-icons">
+                <span>
+                  <p>Git</p>
+                  <img src="icons/git.svg" alt="Git icon">
+                </span>
+
+                <span>
+                  <p>Github</p>
+                  <img src="icons/githubicon.svg" alt="Github icon">
+                </span>
+
+                <span>
+                    <p>HTML 5</p>
+                    <img src="icons/html.svg" alt="HTML5 icon">
+                </span>
+
+                <span>
+                    <p>CSS 3</p>
+                    <img src="icons/css.svg" alt="CSS3 icon">
+                </span>
+
+                <span>
+                    <p>Javascript</p>
+                    <img src="icons/js.svg" alt="Javascript icon">
+                </span>
+
+                <span>
+                    <p>React</p>
+                    <img src="icons/react.svg" alt="React icon">
+                </span>
+
+                <span>
+                    <p>VSCode</p>
+                    <img src="icons/vscode.svg" alt="VSCode icon">
+                </span>
+            </div>
+        </div>
+      </div>
+<!--------------------------------- PROJETOS ---------------------------->      
+      <div class="main-projects" id="main-projects">
+        <div class="section-projects">
+            <div class="section-projects-intro">
+                <h1>Projetos</h1>
+                <p>Aqui estão meus projetos até o momento.</p>
+            </div>
+
+            <div class="section-projects-cards-container">
+                <div class="project-card">
+                    <img src="picture/scratchpng.jpeg" alt="Project photo" width="400" height="350">
+                    <div class="project-card-content">
+                        <h2>Projeto Scrach</h2>
+                        <p>
+                            O objetivo dele é construir um jogo no Scratch utilizando os conhecimentos aprendidos nas aulas 1 e 2: Cenários, Movimento, Variáveis, Condicionais, Loops, Operadores, Comparadores.
+                        </p>
+                        <p class="project-card-content-stacks">
+                            <span>Tech stack :</span> JavaScript
+                        </p>
+                        <div class="project-card-links">
+                            <a href="https://scratch.mit.edu/projects/723151556/">
+                                <img src="icons/link-chair.svg" alt="Link icon">
+                                Live Preview
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="picture/curso de reciclagem para condutores infratores.png" alt="Project photo" width="650" height="350">
+                    <div class="project-card-content">
+                        <h2>Projeto Intro Web</h2>
+                        <p>
+                            Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. O objetivo é construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando todo o conteúdo JavaScript.
+                            
+                        </p>
+                        <p class="project-card-content-stacks">
+                            <span>Tech stack :</span> HTML, CSS, JavaScript, DOM
+                        </p>
+                        <div class="project-card-links">
+                            <a href="#">
+                                <img src="icons/link-chair.svg" alt="Link icon">
+                                Live Preview
+                            </a>
+
+                            <a href="https://github.com/montenegrotay/projeto-intro-web">
+                                <img src="icons/githubsmall.svg" alt="Github icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="picture/tm copy.png" alt="Project photo" width="380" height="350">
+                    <div class="project-card-content">
+                        <h2>Projeto Portfólio</h2>
+                        <p>
+                            Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. O objetivo é construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando todo o conteúdo JavaScript.
+                            
+                        </p>
+                        <p class="project-card-content-stacks">
+                            <span>Tech stack :</span> HTML, CSS, JavaScript, DOM
+                        </p>
+                        <div class="project-card-links">
+                            <a href="#">
+                                <img src="icons/link-chair.svg" alt="Link icon">
+                                Live Preview
+                            </a>
+
+                            <a href="https://github.com/montenegrotay/portfolio">
+                                <img src="icons/githubsmall.svg" alt="Github icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="picture/react.png" alt="Project photo" width="400" height="350">
+                    <div class="project-card-content">
+                        <h2>Projeto React</h2>
+                        <p>
+                            Projeto em andamento.
+                        </p>
+                        <p class="project-card-content-stacks">
+                            <span>Tech Stack :</span> React
+                        </p>
+                        <div class="project-card-links">
+                            <a href="#">
+                                <img src="icons/link-chair.svg" alt="Link icon">
+                                Live Preview
+                            </a>
+
+                            <a href="https://github.com/montenegrotay/projeto-intro-web">
+                                <img src="icons/githubsmall.svg" alt="Github icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+<!--------------------------------- CONTATO ----------------------------> 
+      <div class="main-contact" id="main-contact">
+        <div class="contact-home">
+          <div class="contact-home-item">
+            <h1>
+              Entre em contato! </br>
+              <span class="contato"> Contato: +55(27) 99902-9944</span> <br />
+              <span class="email">Email: montenegro.taynara@gmail.com</span> <br />
+            </h1>
+          
+            <img
+              src="picture/Sem_nome__Logotipo_-removebg-preview.png"
+              alt="Profile photo"
+              class="contact-img"
+              width="800"
+            />
         </div>
       </div>
     </div>

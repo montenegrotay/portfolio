@@ -72,7 +72,6 @@ a {
 }
 
 /* ================== HOME (index.html) ================== */
-
 .section-home {
     /* 100vh - tamanho header */
     min-height: calc(100vh - 55px); 
@@ -95,21 +94,33 @@ a {
 }
 
 .profile-img {
-    border-radius: 50%
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
 }
 
 
-/* ================== ABOUT ME (about.html) ================== */
+/* ================== SOBRE ================== */
 
 .section-about {
     font-family: 'Poppins', sans-serif;
     /* 100vh - tamanho header */
     min-height: calc(100vh - 55px);
-    width: 710px;
+    width: 810px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
+    padding: 5vh;
+
 }
+
+.section-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 .section-about-work-item {
     height: 75px;
@@ -139,7 +150,7 @@ a {
 }
 
 html body .section-about-time-tag { /* Just to add selector priority */
-    color: #018c0f;
+    color: #ea698e;
     background-color: #d7ffe0;
     border-radius: 20px;
     padding: 0 18px;
@@ -160,19 +171,21 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .section-about span {
     font-size: 12px;
     font-weight: 500;
-    color: #a7a7a7;
+    color: #666666;
 }
 
 .content-work {
     width: 250px;
+    
 }
 
 .content-data {
     margin-left: auto;
+   
 }
 
 
-/* ================== Tech Stack (stack.html) ================== */
+/* ================== HABILIDADES ================== */
 
 .section-stack {
     font-family: 'Poppins', sans-serif;
@@ -181,6 +194,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .section-stack h1 {
@@ -188,6 +202,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     color: #42446e;
     margin: 32px 0;
     padding-left: 50px;
+    gap: 10vh;
 }
 
 .section-stack p {
@@ -202,10 +217,11 @@ html body .section-about-time-tag { /* Just to add selector priority */
     justify-content: space-between;
     margin-top: 100px;
     padding: 50px;
+    
 }
 
 
-/* ================== Projects (projects.html) ================== */
+/* ================== Projetos ================== */
 
 .section-projects {
     font-family: 'Poppins', sans-serif;
@@ -231,18 +247,19 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .section-projects p {
     font-size: 18px;
     color: #666666;
+    text-align: justify;
 }
 
 .section-projects-cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 50px;
 }
 
 .project-card {
     overflow: hidden;
-    width: 375px;
+    width: 370px;
     background-color: white;
     border-radius: 20px;
     margin-top: 48px;
@@ -301,5 +318,44 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .project-card-links a img {
     margin-right: 10px;
 }
+
+/* ================== Contato ================== */
+
+.contact-home {
+    /* 100vh - tamanho header */
+    min-height: calc(100vh - 55px); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-home-item {
+    flex-grow: 1;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #42446e;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.email, .contato {
+    color: #ea698e;
+    font-size: 28px;
+    justify-content: center;
+    width: 60vh;
+}
+
+
+
+.contact-home-item h1, .contact-home-item span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+
 
 
